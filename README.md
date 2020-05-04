@@ -2,7 +2,7 @@
 
 Matematiki:
 
-Jopip Plemelj
+Josip Plemelj
 Jurij Vega
 Ivan Vidav
 
