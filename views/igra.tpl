@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-<body>
-
+% import model
+% rebase('Vislice/views/base.tpl')  
+  
   <h1>Vislice</h1>
 
   <blockquote>
@@ -19,10 +17,12 @@
   % elif poskus == "X":
     <h1> IZGUBIL SI </h1>
   % else:
-  <form action="/igra/{{id_igre}}/" method="post">
+
+  <form action="/igra/" method="post">
     Črka: <input type="text" name="crka">
     <button type="submit">Ugibaj novo crko</button>
   </form>
+  
   % end
 
   <img src="img/10.jpg" alt="obesanje">
@@ -30,7 +30,3 @@
   <form action="/igra/" method="post">
     <button type="submit">Nova igra</button>
   </form>
-
-</body>
-
-</html>
